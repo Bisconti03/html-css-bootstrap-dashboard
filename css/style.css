@@ -1,0 +1,27 @@
+:root {
+    --almost-white-color: #f8f9fa;
+    --strong-blue-color: #051e34;
+    --light-blue-color: #1b72e8;
+}
+
+
+.bg-strong-blue {
+    background-color: var(--strong-blue-color);
+}
+
+.bg-almost-white {
+    background-color: var(--almost-white-color);
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue-color);
+}
+
+
+
+
+
+
+
+
+
