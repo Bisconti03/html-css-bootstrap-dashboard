@@ -2,9 +2,17 @@
     --almost-white-color: #f8f9fa;
     --strong-blue-color: #051e34;
     --light-blue-color: #1b72e8;
+    --orange-color: #fe8e00;
+    --darker-blue-color: #165bba;
 }
 
+.orange-color {
+    color: var(--orange-color);
+}
 
+.bg-darker-blue {
+    background-color: var(--darker-blue-color);
+}
 .bg-strong-blue {
     background-color: var(--strong-blue-color);
 }
@@ -23,9 +31,7 @@
 }
 
 
-@media  all and (max-widht:992px) {
-    .span {
-        display: none;
-    } 
+.mobile-logo {
+    width: 50px;
     
 }

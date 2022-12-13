@@ -14,29 +14,38 @@
 <body>
     <header class="sticky-top ">
         <nav class="navbar bg-light">
-            <div class="container-fluid flex-nowrap">
+            <div class="container-fluid d-flex flex-nowrap">
                 <a class="navbar-brand" href="#">
-                        <img src="img/logo.svg" alt="Bootstrap" >
+                        <img class="d-lg-inline-block d-md-none d-sm-none d-none" src="img/logo.svg" alt="Bootstrap" >
+                        <img class="mobile-logo d-lg-none d-md-inline-block d-sm-inline-block d-inline-block" src="img/mobile-logo.png" alt="">
                 </a>
 
-                <div class="form-floating w-75">
-                  <input type="search" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  <label for="floatingInput">Search</label>
+                <div class="form-floating w-100">
+                  <input type="search" class="form-control   bg-secondary bg-opacity-25" id="floatingInput" placeholder="Search">
+                  <label for="floatingInput"><i class="fa-solid fa-magnifying-glass pe-2"></i>Search</label>
                 </div>
 
-                <ul class="navbar-nav me-auto  d-flex flex-row">
+                <ul class="navbar-nav  d-flex flex-row justify-content-between">
                     
-                    <li class="nav-item mx-2">
-                    <a class="nav-link " href="#">Link</a>
+                    <li class="nav-item mx-3 d-lg-inline-block d-md-none d-sm-none d-none">
+                    <a class="nav-link " href="#">
+                      <i class="fa-solid fa-list fa-lg"></i>
+                    </a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link " href="#">Link</a>
+                    <li class="nav-item mx-3 d-lg-inline-block d-md-none d-sm-none d-none">
+                        <a class="nav-link " href="#">
+                          <i class="fa-solid fa-circle-question fa-lg"></i>
+                        </a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item mx-3 d-lg-inline-block d-md-none d-sm-none d-none">
+                        <a class="nav-link" href="#">
+                          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                        </a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link" href="#">
+                          <i class="fa-solid fa-bell fa-lg orange-color"></i>
+                        </a>
                     </li>
                 </ul>
 
@@ -70,7 +79,7 @@
                   <div class="pb-4">
                     <a class="text-decoration-none text-white d-flex align-items-center" href="">
                       <i class="fa-solid fa-gear pe-2 "></i>
-                      <span class="d-lg-inline-block d-md-none d-sm-none d-none ms-2">Admin</span> 
+                      <span class="d-lg-inline-block d-md-none d-sm-none d-none ">Admin</span> 
                     </a>
                   </div>
                     
@@ -81,11 +90,27 @@
                 <div class="col-11 offset-1" id="main">
                     
                     <div class="row bg-light-blue text-white">
-                        <div class="col-6">
-                            <h1>BOOLEAN</h1>
+                        <div class="col-lg-6 col-md-4 col-sm-12 order-lg-1 order-md-1 order-sm-2">
+                            <h1 class="d-inline-block mt-2">Boolean</h1>
+                            <span class="badge rounded-pill bg-darker-blue  ">Piano Blaze</span>
+                            <div class="mb-4">
+                              <span class="badge rounded-pill bg-darker-blue ">3 app</span>
+                              <i class="fa-sharp fa-solid fa-angles-right"></i>
+                              <span class="badge rounded-pill bg-darker-blue d-lg-inline-block d-md-none d-sm-none d-none ">Boolean mobile app</span>
+                              <span class="badge rounded-pill bg-darker-blue d-lg-inline-block d-md-none d-sm-none d-none">Boolean web app</span>
+                              <span class="badge rounded-pill bg-darker-blue d-lg-inline-block d-md-none d-sm-none d-none">Boolean blog app</span>
+                              <span class="badge rounded-pill bg-darker-blue d-lg-none d-md-inline-block d-sm-inline-block d-inline-block">+</span>
+                            </div>
                         </div>
-                        <div class="col-4">125</div>
-                        <div class="col-2">Nuovo studente</div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 order-lg-2 order-md-2 order-sm-3">
+                          <p class="fs-5 mt-3">Studenti online negli ultimi 30 min</p>
+
+                          <p class="fs-1">125</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-12 order-lg-3  order-md-3 order-sm-1">
+                          <p class="d-inline-block mt-4 me-2">Nuovo Studente</p>
+                          <button type="button" class="btn btn-outline-light">+</button>
+                        </div>
                     </div>
 
                     <div class="row">
