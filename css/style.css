@@ -34,4 +34,34 @@
 .mobile-logo {
     width: 50px;
     
+}.avatar {
+    width: 30px;
+    
 }
+
+.side-links:hover {
+    background-color: grey;
+
+}
+
+.custom-padding {
+    padding-right: 15vw;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .disappear-roi {
+      display: none;
+    }
+  }
+  
+
+
+  @media screen and (max-width: 768px) {
+    .disappear-data {
+      display: none;
+    }
+  }
