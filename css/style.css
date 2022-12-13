@@ -18,10 +18,14 @@
 }
 
 
+#sticky-sidebar {
+    height: calc(100% - 74px);
+}
 
 
-
-
-
-
-
+@media  all and (max-widht:992px) {
+    .span {
+        display: none;
+    } 
+    
+}
